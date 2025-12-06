@@ -94,8 +94,11 @@ git clone https://github.com/webdev408/World-economy-prediction-with-error-valid
 # Navigate to the project directory
 cd World-economy-prediction-with-error-validation-and-remedial-measures
 
-# Install required packages
+# Install required packages (if requirements.txt exists)
 pip install -r requirements.txt
+
+# Or install packages individually
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter scipy statsmodels
 ```
 
 ## Usage
